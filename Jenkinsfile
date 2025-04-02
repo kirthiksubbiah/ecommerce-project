@@ -13,7 +13,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/kirthiksubbiah/ecommerce-project.git'
             }
         }
-     }
 
         stage('Build Docker Image') {
             steps {
